@@ -1,4 +1,4 @@
-LDLIBS  = -lglut -lGLU -lGL
+LDLIBS  = -framework GLUT -framework OpenGL
 OBJS    = Main.o assist.o Stage1.o Model/XLoader.o
 PROGRAM = a.out
 LIBS_WIN      = -lopengl32 -lfreeglut -lglu32
